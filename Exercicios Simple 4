@@ -1,0 +1,58 @@
+import math
+"""
+
+Aqui importaremos a biblioteca Math pois as formulas se tornaram mais complexas e
+como iremos trabalha com graus angulos e radianos para facilitar a formulação da 
+conta usaremos a biblioteca matematica
+pi = 3.14 caso não queira importar a biblioteca
+
+"""
+#Exercicio14 Leia um angulo em graus e apresente-o convertido em radianos
+
+print('Converta graus em radianos')
+g1 = float(input('Entre com o angulo em graus: '))
+r1 = ( g1 * math.pi ) / 180  #Pi = 3.14
+print(f'{r1} Radianos')
+
+#Exercicio15 Leia em radianos e converta para graus
+
+print('Converta radianos em graus')
+r2 = float(input('Entre com o radiano: '))
+g2 = ( r2 * 180 ) / math.pi  #Pi = 3.14
+print(f'{g2} Graus')
+
+#Exercicio16 Coverta polegadas para centimetros
+
+print('Converta polegadas para centimetros')
+p1 = float(input('Entre com as polegadas: '))
+c1 = p1 * 2.54
+print(f'{c1} Centimetros')
+
+#Exercicio17 Converta centimetros para polegadas
+
+print('Converta centimetros para polegadas')
+c2 = float(input('Entre com os centimetros: '))
+p2 = c2 / 2.54
+print(f'{p2} Polegadas')
+
+#Exercicio18 leia um volume em cubicos e converta para litros
+
+print('Coverta de Cubicos para Litros')
+cb1 = float(input('Entre com o valor em cubicos: '))
+lt1 = 1000 * cb1
+print(f'{lt1} Litros')
+
+#Exercicio19 Leia em litros e converta para cubicos
+
+print('Converta litros para cubicos')
+lt2 = float(input('Entre com o valor em litros: '))
+cb2 = lt2 / 1000
+print(f'{cb2} Cubicos')
+
+#Exercicio20 Leia massa em quilogramas e converta para libras
+print('Converta quilograma para Libras'
+      'Ex: 1kg = 1000 quilogramas')
+kl1 = float(input('Entre com o peso em quilogramas: '))
+lb1 = kl1 / 0.45
+print(f'{lb1} Libras')
+
