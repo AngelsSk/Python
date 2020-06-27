@@ -1,0 +1,26 @@
+#Exercicio1 leia n° int e print
+
+num = int(input('Entre com o numero: '))
+print(f'Numero digitado {num}')
+
+#Exercicio2 leia n° real e print
+num1 = float(input('Entre com um numero real: '))
+print(f'Numero digitado {num1}')
+
+#Exercicio3 leia 3 numeros int, some e imprima
+num2 = int(input('Entre com o primeiro numero inteiro: '))
+num3 = int(input('Entre com o segundo numero inteiro: '))
+num4 = int(input('Entre com o terceiro numero inteiro: '))
+soma = num2 + num3 + num4
+print(f'Soma de {num2} + {num3} + {num4} = {soma}')
+
+#exercicio4 Leia um num real e print ao quadrado
+
+num5 = float(input('Entre com o numero real²: '))
+print(f'numero {num5} ao quadrado = {num5 ** 2}')
+
+#exercicio5 leia um num real e print a quinta parte deste num
+
+num6 = float(input('Entre com o numero real divide 5 : '))
+divisao = num6 // 5
+print(f'Numro {num6} dividido por 5 = {divisao}')
