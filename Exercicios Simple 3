@@ -1,0 +1,28 @@
+#Exercicio10 Converta Km/h em m/s
+
+print('Converta km/h em m/s')
+km1 = float(input('Entre com km/h: '))
+m = km1 / 3.6
+print(f'Velocidade é de {m} m/s')
+
+#Exercicio11 Coverta m/s em Km/h
+
+print('Coverta m/s em Km/h')
+m1 = float(input('Entre com M/s: '))
+km2 = m1 * 3.6
+print(f'Velocidade é {km2} Km/h')
+
+#Exercicio12 Leia em milhas e converta para quilometros
+
+print('Converta de milhas para quilometros')
+m2 = float(input('Entre com as milhas: '))
+km3 = 1.61 * m2
+print(f'A distancia é de {km3} quilometros')
+
+#Exercicio13 Leia em quilometros e converta para milhas
+
+print('Converta de quilometros para milhas')
+km4 = float(input('Entre com os quilometros: '))
+m3 = km4 / 1.61
+print(f'A distancia é de {m3} milhas')
+
