@@ -20,7 +20,8 @@ Variaves:
 Float = Numeros reais, 1.0, 2.0, 3.7, 99.99, ...
 Int = Reais, 1, 2, 33, 999, ...
 Boleanos = False, True (Verdadeiro e falso)
-String = Tudo que estiver entre aspas, simples ou duplas, '1', '2', 'Batman', '1.5', ...
+String = Tudo que estiver entre aspas, simples ou duplas, '1', '2', 'Batman', '1.5', ..
+Um dado é do tipo string quando estiver dentro de ' ' ou " " ou """ """
 
 """
 #Exemplo
