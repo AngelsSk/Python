@@ -1,0 +1,24 @@
+"""
+IF = Se
+Else = Se não
+Elife = else + if
+"""
+
+#Exemplo:
+
+idade = int(input('Qualsua idade: ')
+
+if idade < 18:
+    print('Menor de idade')
+elif idade == 18:
+    print('Idade de se Alistar')
+else:
+    print('Maior de idade')
+ 
+"""
+Aque estamos pedindo que o usuario entre com a idade
+se a idade for menos que 18 o programa ira avisar que
+usuario é menor de idade. Se idade for igual a 18,
+o programa ira avisar que está na idade de alistamento militar, se
+for maior de 18 o programa ira avisar Maior de idade.
+"""
