@@ -1,0 +1,39 @@
+"""
+Loop for é uma estrutura de repetição
+
+for item in interavel:
+    //Execução do loop
+    
+Utilizamos o loop para iterar sobre sequencias ou sobre valores iteraveis
+exemplo de iteraveis:
+-strings
+-listas
+-range
+
+Exemplo iterando sobre uma string
+for letra in nome:
+    print(letra)
+    
+Exemplo iterando sobre uma lista
+for numero in lista:
+    print(numero)
+
+Exemplo iterando sobre um range
+for numero in range:
+    print(numero)
+
+Exemplo Função enumerate
+for indice, letra in enumerate(nome):
+    prinr(nome[indice])
+
+for indice, letra in enumerate(nome):
+    print(letra)
+    
+for _, letra in enumerate(nome): #Quando não precisamos de um valor
+    print(letra)                 #podemos descartalo usando o underline 
+    
+for valor in enumerate(nome):
+    print(valor)
+
+"""
+
