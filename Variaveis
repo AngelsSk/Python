@@ -31,3 +31,32 @@ print(type(1)) #Irá imprimir que a variavel é do tipo int
 print(type(1.5)) #Ira imprimir que a variavel é do tipo float
 
 print(type(True)) #Ira imprimir que a variavel é do tipo bool (Boleano)
+
+"""
+Boooleano possui apenas 2 constantes (Inicial SEMPRE maiuscula)
+True e False
+not = negação
+Exemplo:
+not True = False
+not False = True
+
+Or = Dependente de 2 valores
+Exemplo:
+True or True = True
+True or False = True
+False or True = True
+False or False = False
+
+And = Dependente de 2 valores
+exemplo:
+True and True = True
+True and False = False
+False and True = False
+False and False = False
+
+Operações
+Exemplo
+5 > 6 = False
+5 < 6 = True
+
+"""
