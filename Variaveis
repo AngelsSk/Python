@@ -1,0 +1,33 @@
+"""
+OBS: Esse arquivo pode ser copiado e colado no seu editor de texto pois já esta formatado no formato pronto pra ser executado.
+
+print(): é uma função de saida de dados, onde imprime na tela tudo que estiver dentro dos ()
+input(): é uma função de entrada de dados
+int: é uma variavel do tipo inteiro #Que faz parte do conjunto numeros inteiros na matematica
+
+O conjunto dos números Inteiros é a união dos números naturais com os naturais negativos. -4,-3,-2,-1, 0, 1, 2, 3, 4, …
+"""
+
+#Exemplo:
+numero = int(input('Digite um numero inteiro: '))
+print(numero)
+
+"""
+Aqui estamos pedindo que o usuario digite um numero inteiro que será armazenada na variavel numero.
+Variaveis não podem começar com numeros, ou ter espaço ou acento.
+
+Variaves:
+Float = Numeros reais, 1.0, 2.0, 3.7, 99.99, ...
+Int = Reais, 1, 2, 33, 999, ...
+Boleanos = False, True (Verdadeiro e falso)
+String = Tudo que estiver entre aspas, simples ou duplas, '1', '2', 'Batman', '1.5', ...
+
+"""
+#Exemplo
+print(type('Batman')) #Irá imprimir que a variavel é do tipo str (String)
+
+print(type(1)) #Irá imprimir que a variavel é do tipo int
+
+print(type(1.5)) #Ira imprimir que a variavel é do tipo float
+
+print(type(True)) #Ira imprimir que a variavel é do tipo bool (Boleano)
