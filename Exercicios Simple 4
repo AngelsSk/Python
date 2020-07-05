@@ -121,3 +121,75 @@ real = float(input('Entre com o valor em Real (R$) : '))
 dolar = float(input('Entre com o valor do Dolar: '))
 cot = dolar / real
 print(f'{cot}')
+
+#Exercicio31
+print('Leia um numero inteiro e imprima seu antecessor e sucessor')
+num1 = int(input('Entre com um numero inteiro: '))
+ant = num1 - 1
+suc = num1 + 1
+print(f'Antecessor {ant}, Sucessor {suc}')
+
+#exercicio32
+print('Leia um numero inteiro e imprima a soma do sucessor de seu triplo'
+      'com o antecessor de seu dobro')
+num2 = int(input('Entre com um numero inteiro: '))
+soma = (num2 * 3 + 1) + (num2 * 2 - 1)
+print(f'{soma}')
+
+#Exercicio33
+print('Area quadrada')
+ld1 = float(input('Entre com o primeiro lado: '))
+ld2 = float(input('Entre com o segundo lado: '))
+area = ld1 * ld2
+print(f'Area quadrada é de {area}')
+
+#Exercicio34
+print('Leia o valor do raio de um circulo e calcule e imprima a area do circulo')
+raio1 = float(input('Entre com o valor do raio: '))
+ar1 = (raio1 ** 2) * 3.1415592
+print(f'Area do cirsulo é de {ar1}')
+
+#Exercicio35
+print('Sejam a e b os catetos de um triangulo, calcule a hipotenusa')
+a1 = float(input('Entre com o valor de a: '))
+b1 = float(input('Entre com o valor de b: '))
+hip = ((a1 ** 2) + (b1 ** 2)) ** 0.5
+print(f'O valor da hipotenusa é de {hip}')
+
+#Exercicio36
+print('Volume do cilindro')
+alt1 = float(input('Entre com o valor da altura: '))
+raio2 = float(input('Entre com o valor do raio: '))
+v1 = (3.1415592 * (raio2 ** 2)) * alt1
+print(f'O volume é de {v1}')
+
+#Exercicio37
+print('Programa para aplicar descontos')
+vl1 = float(input('Entre com o valor do produto R$ '))
+desc = float(input('Entre com a porcentagem de desconto %'))
+vl2 = ((vl1 * desc) / 100) - vl1
+print(f'O valor do produdo com desconto é de {vl2}')
+
+#Exercicio38
+print('Calcule um aumento salarial de 25%')
+slr = float(input('Entre com o salario base: '))
+aum = ((slr * 25) / 100) + slr
+print(f'Salario com aumento é de {aum}')
+
+#Exercicio39
+print('780 mil divido entre 3 ganhadores o '
+      'primeiro recebe 46% o segundo 32% e o '
+      'terceiro o restante')
+pri = ((780.000 * 46) / 100)
+seg = ((780.000 * 32) / 100)
+ter = (780.000 - pri) - seg
+print(f'Primeiro {pri}\n'
+      f'Segundo {seg}\n'
+      f'Terceiro {ter}\n')
+
+#Exercicio40
+print('Dias trabalhados x Valor - 8% imposto de renda')
+dias = float(input('Entre com os dias trabalhados: '))
+val = float(input('Entre com o valor do dia trabalhado: '))
+paga = (dias * val) * 0.92
+print(f'Valor a ser pago é de {paga}')
