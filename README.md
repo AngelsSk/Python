@@ -1,7 +1,7 @@
 # Python 3,7+
 Linhas de comando para fins educativos, exercicios simples e respondidos
 
-Exercicios simples 1, 2 e 3
+Exercicios simples
 São pequenas conversões matematicas simples como quilometros, velocidade e distancia.
 Assim como as formas de entrada
 int = numero inteiro
