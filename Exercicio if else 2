@@ -1,0 +1,111 @@
+#Exercicio1
+print('Recebe dois numeros e mostra qual é maior')
+num1 = float(input('Entre com o primeiro numero: '))
+num2 = float(input('Entre com o segundo numero: '))
+
+if num1 > num2:
+    print(f'{num1} é maior que {num2}')
+elif num1 == num2:
+    print('Numeros iguais')
+else:
+    print(f'{num2} é maior que {num1}')
+
+#Exercicio2
+print('Leia um numero, se ele for positivo faça a raiz quadrada')
+num1 = float(input('Entre com o numero positivo: '))
+
+if num1 > 0:
+    print(f'{num1 ** 0.5}')
+else:
+    print('Numero negativo')
+
+#Exercicio3
+print('Leia um numero real, se ele for positvo imprima a raiz se'
+      'ele for negativo imprima ao quadrado')
+num1 = float(input('Entre com o primeiro numero: '))
+
+if num1 > 0:
+    print(f'{num1 ** 0.5}')
+else:
+    print(f'{num1 ** 2}')
+
+#Exercicio4
+print('Leia e calcule a raiz quadrada e o quadrado de um numero')
+num1 = float(input('Entre com o primeiro numero: '))
+print(f' Numero ao quadrado {num1 ** 2}\n'
+      f' Raiz quadrada é {num1 ** 0.5}')
+
+#Exercicio5
+print('Leia um numero e verifique se ele é par ou impar')
+num1 = float(input('Entre com o primeiro numero: '))
+
+if num1 % 2 == 0:
+    print('Numero par')
+else:
+    print('Numero impar')
+
+#Exercicio6
+print('Dados dois numeros verifique qual é maior e qual a diferença entre eles')
+num1 = float(input('Entre com o primeiro numero: '))
+num2 = float(input('Entre com o segundo numero: '))
+
+if num1 > num2:
+    print(f'{num1} é maior que {num2}\n'
+          f'A diferença entre eles é de {num1 - num2}')
+elif num2 > num1:
+    print(f'{num2} é maior que {num1}\n'
+          f'A diferença entre eles é de {num2 - num1}')
+else:
+    print('Entre com um numero valido')
+
+#Exercicio7
+print('Rceba dois numeros e mostre o maior')
+num1 = float(input('Entre com o primeiro numero: '))
+num2 = float(input('Entre com o segundo numero: '))
+
+if num1 > num2:
+    print(f'{num1} é maior que {num2}')
+elif num1 == num2:
+    print('Numeros iguais')
+else:
+    print(f'{num2} é maior que {num1}')
+
+#Exercicio8
+print('Entre com duas notas validas (0.0 á 10.0)')
+num1 = float(input('Entre com a primeira nota: '))
+num2 = float(input('Entre com a segunda nota: '))
+
+if (num1 >= 0.0 and num1 <= 10.0) and (num2 >= 0.0 and num2 <= 10.0):
+    if (num1 + num2) / 2 > 6.0:
+        print(f'{(num1 + num2)/2} Aprovado')
+    elif (num1 + num2) / 2 > 5.9:
+        print(f'{(num1 + num2) / 2} Reprovado')
+else:
+    print('Entre com um valor valido')
+
+#Exercicio9
+print('Leia o salario e o valor do da prestação do emprestimo se a '
+      'prestção for 20% do salario')
+num1 = float(input('Entre com o salario: '))
+num2 = float(input('Entre com a prestação: '))
+
+if num2 > num1 * 0.2:
+    print('Não consedido')
+else:
+    print('Consedido')
+
+#Exercicio10
+print('Receba sexo, altura (Centimetros), e calcule o peso ideal')
+alt = float(input('Entre com a altura em centimetro: '))
+sexo = str(input('Entre com M ou F: '.upper()))
+
+Homem = 72.7 * alt
+Mulher = 62.1 * alt
+
+if sexo == 'M':
+    print(f'Seu peso ideal é {Homem}')
+elif sexo == 'F':
+    print(f'Seu peso ideal é {Mulher}')
+else:
+    print('Entre com um valr valido')
+
