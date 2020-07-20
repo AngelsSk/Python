@@ -1,0 +1,223 @@
+# -*- coding: UTF-8 -*-
+import math
+"""
+
+"""
+
+def lin():
+    print('__________________________________________________')
+
+
+#Exercicio 1
+lin()
+print('\nFaça um programa que receba 2 numeros\n'
+'e mostre qual é o maior')
+num1 = float(input('Entre com o primeiro numero: '))
+num2 = float(input('Entre com o segundo numero: '))
+
+if num1 == num2:
+    print('Numeros iguais')
+elif num1 > num2:
+    print(f'{num1} é maior que {num2}')
+elif num2 > num1:
+    print(f'{num2} é maior que {num1}')
+else:
+    print('Caracteres invalidos')
+
+lin()
+lin()
+
+#Exercicio 2
+print('\nEntre com um numero, se for positivo\n'
+'calcule a raiquadrada se for negativo\n'
+'informe numero invalido')
+
+num = float(input('Entre com um numero: '))
+
+if num > 0:
+    print(f'Raiz quadrada é {num ** 0.5}')
+else:
+    print(f'Numero invalido {num}')
+
+lin()
+lin()
+
+#Exercicio 3
+print('\nLeia um numero se for positivo, imprima a raiz\n'
+'Se for negativo imprima ao quadrado')
+num = float(input('Entre com um numero: '))
+
+if num > 0:
+    print(f'Raiz quadrada de {num} é {num ** 0.5}')
+else:
+    print(f'O quadrado de {num} é {num ** 2}')
+
+lin()
+
+#Exercicio 4
+print('\n Leia um numero se for positivo\n'
+'calcule a raiz e o quadrado deste numero')
+num = float(input('Entre com um numeero: '))
+
+if num > 0:
+    print(f'Raiz quadrada é {num ** 0.5}')
+    print(f'Numero ao quadrado é {num ** 2}')
+else:
+    print('Numero invalido')
+
+lin()
+lin()
+
+#Exercicio 5
+print('\n Verifique se um numero é par ou impar')
+num = float(input('Entre com um numero: '))
+if num % 2 == 0:
+    print(f'{num} é par')
+else:
+    print(f'{num} é impar')
+
+lin()
+lin()
+
+#Exercicio 6
+print('\n Entre com 2 numeros e mostre o maior e\n'
+'a diferença entre eles')
+num1 = float(input('Entre com o primeiro numero: '))
+num2 = float(input('Entre com o segundo numero: '))
+if num1 == num2:
+    print('Numeros iguais')
+elif num1 > num2:
+    print(f'{num1} é maior que {num2}')
+    print(f'A diferença entre eles é de {num1 - num2}')
+else:
+    print(f'{num2} é maior que {num1}')
+    print(f'A diferença entre eles é de {num2 - num1}')
+
+lin()
+lin()
+
+#Exercicio 7
+#Repetido
+#Exercicio 8
+print('\n Tire a média de 2 notas 6+ passou 5- reprovado')
+num1 = float(input('Entre com a primeira nota: '))
+num2 = float(input('Entre com a segunda nota: '))
+media = (num1 + num2) /2
+if media < 5:
+    print('Reprovado')
+else:
+    print('Aprovado')
+
+lin()
+lin()
+
+#Exercicio 9
+print('\n Leia salario e valor da prestação se prestação for maior\n'
+'que 20"%" do salario negue emprestimo' )
+sal = float(input('Entre com o salario: '))
+parcela = float(input('Entre com o valor da parcela: '))
+if parcela > sal * 0.2:
+    print('Negado')
+else:
+    print('Aprovado')
+
+lin()
+lin()
+
+#Exercicio 10
+print('\n Entre com altura e sexo e calcule seu peso ideal')
+alt = float(input('Altura em centimetros: '))
+sexo = str(input('M para masculino e F para feminino: '.title))
+if sexo == M:
+    print(f'Peso ideal é de {(72.7 * alt)-58}')
+elif sexo == F:
+    print(f'Peso ideal é de {(62.1 * alt)-44.7}')
+else:
+    print('Entre com o genero valido')
+
+lin()
+lin()
+
+#Exercicio 11
+print('\n Entre com um numero inteiro maior que 0 e devolva\n'
+'a soma de todos os algarismos')
+num = int(input('Entre com o numero: '))
+
+if num > 0:
+    soma = 0
+    while num != 0:
+        resto = num % 10
+        num = (num - resto)  / 10
+        soma = soma + resto
+    print(f'Soma: {soma}')
+else:
+    print('Numero invalido')
+
+lin()
+lin()
+
+#Exercicio 12
+print('\n Ler um numero e calcular o logaritmo')
+num = float(input('Entre com o numero: '))
+log = math.log(num)
+print(f'O logaritmo é {log}')
+
+lin()
+lin()
+
+#Exercicio 13
+print('\n Calcule a média ponderada, a primeira e a segunda tem peso 1\n'
+'a terceira tem peso 2')
+nota1 = float(input('Entre com a primeira nota: '))
+nota2 = float(input('Entre com a segunda nota: '))
+nota3 = float(input('Entre com a terceira nota: '))
+media = ((nota1 * 0.25) + (nota2 * 0.25) + (nota3 * 0.50))
+if media < 5:
+    print(f'Reprovado, {media}')
+else:
+    print(f'Aprovado, {media}')
+
+lin()
+lin()
+
+#Exercicio 14
+print('\n Media de 3 notas, laboratorio peso 2, avaliação semestral\n'
+'peso 3, e avaliação final peso 5')
+nota1 = float(input('Entre com a primeira nota: '))
+nota2 = float(input('Entre com a segunda nota: '))
+nota3 = float(input('Entre com a terceira nota: '))
+media = ((nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.50))
+if media <= 10 and media > 5:
+    print(f'Aprovado, {media}')
+elif media <= 4.9 and media > 2.9:
+    print(f'Recuperação {media}')
+elif media <= 2.9:
+    print(f'Reprovado {media}')
+else:
+    print(f'Aprovado, {media}')
+lin()
+lin()
+
+#Exercicio 15
+print('\n Leia um numero de 1 a 7 e diga o dia da semana')
+num = int(input('Entre com o numero: '))
+if num == 1:
+    print('Domingo')
+elif num == 2:
+    print('Segunda-Feira')
+elif num == 3:
+    print('Terça-Feira')
+elif num == 4:
+    print('Quarta-Feira')
+elif num == 5:
+    print('quinta-Feira')
+elif num == 6:
+    print('Sexta-Feira')
+elif num == 7:
+    print('Sabado-Feira')
+else:
+    print('Numero invalido')
+
+lin()
+lin()
+
